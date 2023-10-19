@@ -1,8 +1,8 @@
 Olivia Caulfield
 CSC - 251 - Lab 3
 
-The purpose of this lab is to write a simple shell program. This simple shell must exit with \'91exit\'92, reprompt when a new line is entered, and NOT exit with control C. Additionally, the & operator should not wait for the command to terminate and run concurrently instead. \
-**NOTE: I used waitpid instead of wait because wait was reprompting before execution finished, so I used waitpid to ensure that the specific process finished before reprompting. \
+The purpose of this lab is to write a simple shell program. This simple shell must exit with 'exit', reprompt when a new line is entered, and NOT exit with control C. Additionally, the & operator should not wait for the command to terminate and run concurrently instead.
+**NOTE: I used waitpid instead of wait because wait was reprompting before execution finished, so I used waitpid to ensure that the specific process finished before reprompting.
 
 To compile: cc OliviaCaulfield_Lab3.c
 To execute: ./a.out
